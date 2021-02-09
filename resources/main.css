@@ -1,0 +1,236 @@
+html, body{
+    margin: 0;
+}
+
+section {
+    display: flex;
+    height: 50%;
+    font-family: 'Bubblegum Sans', cursive;
+}
+
+header{
+    height: 20%;
+    width: 100%;
+    position: relative;
+    border-bottom: 1px solid #a0a0a0;
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 20px;
+}
+
+.title-wrapper{
+    width: 30%;
+    font-size: 40px;
+}
+
+nav {
+    display: flex;
+    color: #a0a0a0;
+    justify-content: space-between;
+    position: absolute;
+    width: 70%;
+    top: 0;
+    left: 30%;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 25px;
+    padding: 15px;
+}
+
+aside, main {
+    height: 600px;
+}
+
+aside {
+    width: 30%;
+    background-color: #fff;
+    margin-right: 25px;
+    padding-left: 20px;
+}
+
+.biggest-title-wrapper{
+    padding-top: 70px;
+    font-size: 150px;
+}
+
+.smaller-title-wrapper{
+    font-size: 70px;
+    width: 70%;
+}
+
+.title-text-wrapper{
+    font-size: 20px;
+    padding-top: 30px;
+}
+
+.arrows-wrapper{
+    color:#f4dfc4;
+    width: 100%;
+    height: 50px;
+ 
+}
+
+.arrows-wrapper i{
+    width: 30px;
+    height: 30px;
+}
+
+main {
+    width: 70%;
+    background-image: url("../assets/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    position: relative;
+}
+
+footer {
+    width: 100%;
+    height: 200px;
+    font-family: 'Bubblegum Sans', cursive;
+    font-size: 20px;
+}
+
+.computer-black-bg-wrapper{
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    width: 20%;
+    position: absolute;
+    top: 600px;
+    left: 30%;  
+    height: 200px;  
+}
+
+h2{
+    margin: 0;
+    padding: 10px;
+}
+
+.computer-black-bg-wrapper div{
+    padding-left: 10px;
+}
+
+.nude-bg-wrapper{
+    background-color:#f4dfc4;
+    color: #fff;
+    padding: 20px;
+    width: 45%;
+    margin-left: auto; 
+    margin-right: 0;
+   
+}
+
+.nude-bg-wrapper div{
+    padding-left: 10px;
+}
+
+.nude-bg-wrapper a{
+    padding: 10px;
+    text-decoration: none;
+    color: #fff;
+    border: 3px solid #fff;
+    font-weight:bolder;
+}
+
+.start-wrapper{
+    padding: 30px;
+    padding-bottom: 0px;
+}
+
+.menu-mobile {
+    display: none;
+    color:#a0a0a0;
+    justify-content: center;
+    text-align: end;
+}
+
+.mobile-section{
+    display: none;
+    height: 100%;
+    width: 100%;
+}
+
+.menu-mobile i {
+    font-size: 40px;
+}
+
+.white-bg-wrapper{
+    width: 40%;
+    height: 40%;
+    padding-left: 20px;
+}
+
+.cevaaa{
+    width: 45%;
+    height: 60%;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    height: auto;
+}
+.mobile-black-bg-wrapper div{
+    padding-left: 10px;
+}
+
+
+@media (max-width: 600px) {
+    
+    section {
+        display: none;
+    }
+    .mobile-section{
+        display: block;
+        width: 100%;
+    }
+
+    .white-bg-wrapper, .cevaaa{
+        display: inline-block;
+    }
+
+    .menu-mobile {
+        display: block;
+    }
+
+    .menu-desktop {
+        display: none;
+    }
+
+    .title-wrapper{
+        width: 200px;
+    }
+
+    main {
+        width: 100%;
+        height: 400px;
+    }
+    
+    .biggest-title-wrapper{
+        padding-top:0px;
+        font-size: 40px;
+    }
+
+    .smaller-title-wrapper{
+        font-size: 30px;
+        width: 50%;
+    }
+    
+    .title-text-wrapper{
+        font-size: 20px;
+    }
+
+    .computer-black-bg-wrapper{
+        display: none;
+    }
+    
+    .footer{
+        display: none;
+    }
+    .nude-bg-wrapper{
+        display: block;
+        width: 90%;        
+     }
+     
+
+
+}
